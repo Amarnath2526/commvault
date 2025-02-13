@@ -1,0 +1,165 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Machine : shp01002c1us02
+File    : CVSPRestoreCtrl.log
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+2960  44e4  02/03 21:28:46 26674062 = CVSPRestore has started CVSPRestore2013 -client -iDA -j 26674062 -ccid 2 -a 18606 -cn shp01002c1us02 cvshost:xiuh000002ue2v.cvmscloud.commvault.com*xiuh000002ue2v*8400 cvsport:39057:0 cvsmyplatform:4 cvsremoteplatform:4 -vm Instance001 
+2960  44e4  02/03 21:28:46 26674062 ================================================================================
+2960  44e4  02/03 21:28:46 26674062 CSharePointRestoreApp::PreInitialize(149) - Starting CVSPRestore for sharepoint pseudo-client [FairfieldResidentialLLC_SharePoint_v2]
+2960  44e4  02/03 21:28:46 26674062 CSharePointRestoreApp::InitializeAppMgr(352) - +++ 
+2960  44e4  02/03 21:28:46 26674062 CSharePointRestoreApp::InitializeAppMgr(352) - --- 0:00.000278 
+2960  44e4  02/03 21:28:46 26674062 CVSharePointIdaRestoreApp::PreInitialize(99) - Relaunching Process
+2960  44e4  02/03 21:28:46 26674062 CVSPLibNamespace::CVSPAppMgr::RelaunchProcessWithPermissions() - It is an Office 365 pseudoclient
+2960  44e4  02/03 21:28:46 26674062 CvProcess::StartProcessUnicode() - Preparing to launch process: <G:\ContentStore\Base\CVSPRestore2013.exe>. Priority: <Normal>. Value: <32> creational flag <8>.
+2960  44e4  02/03 21:28:46 26674062 CVImpersonateLoggedOnUserByRef() - caching user sid [S-1-5-21-1947849787-3065012606-2168924033-53178] for optimizing subsequent impersonate operations for this user
+2960  44e4  02/03 21:28:46 26674062 CVSPLibNamespace::CVSPAppMgr::LaunchProcessWithImpersonation() - launched process CVSPRestore2013.exe. CVSPRestore2013 -client -iDA -j 26674062 -ccid 2 -a 18606 -cn shp01002c1us02 cvshost:xiuh000002ue2v.cvmscloud.commvault.com*xiuh000002ue2v*8400 cvsport:39057:0 cvsmyplatform:4 cvsremoteplatform:4 -vm Instance001 -relaunchproc
+2960  44e4  02/03 21:28:46 26674062 CVSharePointIdaRestoreApp::~CVSharePointIdaRestoreApp(47) - +++ 
+2960  44e4  02/03 21:28:46 26674062 CVSharePointIdaRestoreApp::~CVSharePointIdaRestoreApp(47) - --- 0:00.000118 
+2960  44e4  02/03 21:28:46 26674062 CSharePointRestoreApp::~CSharePointRestoreApp(53) - +++ 
+2960  44e4  02/03 21:28:46 26674062 = CVSharePointRestore has exited
+2960  44e4  02/03 21:28:46 26674062 ================================================================
+2960  44e4  02/03 21:28:46 26674062 CSharePointRestoreApp::~CSharePointRestoreApp(53) - --- 0:00.000294 
+2960  44e4  02/03 21:28:46 26674062 CvNetworkPool::~CvNetworkPool() - Controller thread successfully stopped.
+20980 3b40  02/03 21:28:46 26674062 ================================================================================
+20980 3b40  02/03 21:28:46 26674062 = CVSPRestore has started CVSPRestore2013 -client -iDA -j 26674062 -ccid 2 -a 18606 -cn shp01002c1us02 cvshost:xiuh000002ue2v.cvmscloud.commvault.com*xiuh000002ue2v*8400 cvsport:39057:0 cvsmyplatform:4 cvsremoteplatform:4 -vm Instance001 -relaunchproc 
+20980 3b40  02/03 21:28:46 26674062 ================================================================================
+20980 3b40  02/03 21:28:46 26674062 CSharePointRestoreApp::PreInitialize(149) - Starting CVSPRestore for sharepoint pseudo-client [FairfieldResidentialLLC_SharePoint_v2]
+20980 3b40  02/03 21:28:46 26674062 CSharePointRestoreApp::Initialize(209) - +++ 
+20980 4034  02/03 21:28:46 26674062 CVDTerminationHandler::_WaitForCVDTermination() - Waiting for CVD Termination
+20980 3b40  02/03 21:28:46 26674062 CSharePointRestoreApp::InitializeAppMgr(352) - +++ 
+20980 3b40  02/03 21:28:46 26674062 CSharePointRestoreApp::InitializeAppMgr(352) - --- 0:00.000275 
+20980 3b40  02/03 21:28:46 26674062 CVSharePointIdaRestoreApp::InitializeController(127) - +++ 
+20980 3b40  02/03 21:28:46 26674062 JOBRESCACHEDIR: job 26674062 creating 'X:\ContentStore\sharepointJr\CV_JobResults\2\0\26674062'
+20980 3b40  02/03 21:28:46 26674062 SPIdaRstProps::ReadTaskOptions(82) - Restoring out of place. Destination - [<EVGui_SharePointItem fullPath="https://ffproperties.sharepoint.com/sites/z-INT-Construction-Restore250203" siteCollectionPath="https://ffproperties.sharepoint.com/sites/z-INT-Construction-Restore250203" Reserved_1="" Reserved_2="" objectType="4" webPath="https://ffproperties.sharepoint.com/sites/z-INT-Construction-Restore250203" contentPath="\MB\https://ffproperties.sharepoint.com/sites/z-INT-Construction-Restore250203" relativePath="/" folderPath="" />]
+20980 3b40  02/03 21:28:46 26674062 SPIdaRstProps::ReadTaskOptions(104) - Restore option - [Overwrite]
+20980 3b40  02/03 21:28:46 26674062 SPIdaRstProps::ReadTaskOptions(110) - Include deleted - [true]
+20980 3b40  02/03 21:28:46 26674062 SPIdaRstProps::ReadTaskOptions(126) - Include versions - [true]
+20980 3b40  02/03 21:28:46 26674062 CVSPLibNamespace::CVSPAppMgr::GetOffice365TenantUrl() - Office 365 tenant url [https://ffproperties-admin.sharepoint.com]
+20980 3b40  02/03 21:28:46 26674062 CVSPLibNamespace::CVSPAppMgr::IsEnableUsingCertificate(2166) - Enable using certificate is set to true
+20980 3b40  02/03 21:28:46 26674062 SPIdaRstProps::ReadRegistrySettings(238) - Will enforce path matching
+20980 3b40  02/03 21:28:46 26674062 InitializeComUtils() - COM initialized successfully....
+20980 1     02/03 21:28:46 26674062  ManagedLogger::SetCLRThreadPoolMaxThreads - Setting CLR ThreadPool's maxWorkerThreads = [1000], maxIOThreads = [1000] PID = [20980], ProcessName = [CVSPRestore2013].
+20980 3b40  02/03 21:28:46 26674062 InitializeComInterface() - COM initialized successfully....
+20980 1     02/03 21:28:46 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - Auto.Interrupt.Job.At(String): 6:05:00
+20980 1     02/03 21:28:46 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - CVSPFinalize.ThreadCount(DWord): 1
+20980 1     02/03 21:28:46 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - Check.App.Creds.Using.Alternate.Methods(DWord): 1
+20980 1     02/03 21:28:46 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - Enable.SPO.AutoChange.Interrupt.Count.For.BackupsetIds(String): 41138
+20980 1     02/03 21:28:46 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - SPO.SkipProtectSharedJRState(DWord): 0
+20980 3b40  02/03 21:28:46 26674062 InitializeComInterface() -  Instance created successfully :D
+20980 1     02/03 21:28:46 26674062 CVSPOffice365Client2013 Initialize - CVSPOffice365Client2013 for Graph Initialized Successfully
+20980 1     02/03 21:28:52 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 2a95a4ed-7b42-4cad-8d2b-cedcf4659e75
+20980 1     02/03 21:28:52 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 4383f405-a17d-45bf-9912-2f31fbc8b531
+20980 1     02/03 21:28:53 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 4d78de6b-2dc2-4f62-a8cd-c870f6b40332
+20980 1     02/03 21:28:53 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 4265c238-3bce-49d6-9b7d-7bf69535f07e
+20980 1     02/03 21:28:54 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app e6c8a7d9-2d71-42b1-950c-8862f59b700f
+20980 1     02/03 21:28:54 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 738cc13b-d3ce-4889-8f44-35ac9083ba72
+20980 1     02/03 21:29:17 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App 4383f405-a17d-45bf-9912-2f31fbc8b531. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+20980 1     02/03 21:29:17 26674062 1    CVSPGraphHelper setAuthenticationModeFromRegistry - CVSPGraphHelper.cs - useMSAL value is True
+20980 14    02/03 21:29:22 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App 4383f405-a17d-45bf-9912-2f31fbc8b531 is missing permissions for Sites APIs
+20980 1     02/03 21:29:22 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 4383f405-a17d-45bf-9912-2f31fbc8b531 is missing minimum Graph permissions required.
+20980 1     02/03 21:29:22 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App 4d78de6b-2dc2-4f62-a8cd-c870f6b40332. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+20980 8     02/03 21:29:23 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App 4d78de6b-2dc2-4f62-a8cd-c870f6b40332 is missing permissions for Sites APIs
+20980 1     02/03 21:29:23 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 4d78de6b-2dc2-4f62-a8cd-c870f6b40332 is missing minimum Graph permissions required.
+20980 1     02/03 21:29:23 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App 4265c238-3bce-49d6-9b7d-7bf69535f07e. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+20980 8     02/03 21:29:24 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App 4265c238-3bce-49d6-9b7d-7bf69535f07e is missing permissions for Sites APIs
+20980 1     02/03 21:29:24 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 4265c238-3bce-49d6-9b7d-7bf69535f07e is missing minimum Graph permissions required.
+20980 1     02/03 21:29:24 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App e6c8a7d9-2d71-42b1-950c-8862f59b700f. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+20980 14    02/03 21:29:26 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App e6c8a7d9-2d71-42b1-950c-8862f59b700f is missing permissions for Sites APIs
+20980 1     02/03 21:29:26 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App e6c8a7d9-2d71-42b1-950c-8862f59b700f is missing minimum Graph permissions required.
+20980 1     02/03 21:29:26 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App 2a95a4ed-7b42-4cad-8d2b-cedcf4659e75. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+20980 14    02/03 21:29:27 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App 2a95a4ed-7b42-4cad-8d2b-cedcf4659e75 is missing permissions for Sites APIs
+20980 1     02/03 21:29:27 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 2a95a4ed-7b42-4cad-8d2b-cedcf4659e75 is missing minimum Graph permissions required.
+20980 1     02/03 21:29:27 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 738cc13b-d3ce-4889-8f44-35ac9083ba72 is not missing any required permission
+20980 3b40  02/03 21:29:27 26674062 ValidateAzureAppsGraphPermissions(2230) - Graph permissions check complete. Found at least one healthy app with all required permissions.
+20980 3b40  02/03 21:29:27 26674062 CVSharePointIdaRestoreApp::InitializeController(127) - --- 0:40.582215 
+20980 3b40  02/03 21:29:27 26674062 CSharePointRestoreApp::Initialize(209) - --- 0:40.593167 
+20980 3b40  02/03 21:29:27 26674062 CSharePointRestoreApp::Run(333) - +++ 
+20980 3b40  02/03 21:29:27 26674062 SPRstController::OnAgentStarted() - Agent has started
+20980 3b40  02/03 21:29:27 26674062 SPController::GetLocalComputerInfo() - Detected 64 CPUs and 262144 MB of memory
+20980 3b40  02/03 21:29:28 26674062 InitializeComInterface() - COM initialized successfully....
+20980 3b40  02/03 21:29:28 26674062 InitializeComInterface() -  Instance created successfully :D
+20980 1     02/03 21:29:28 26674062 1    CVSPOffice365Client2013 Initialize - CVSPOffice365Client2013 for Graph Initialized Successfully
+3540  4600  02/05 20:21:25 26893946 ================================================================================
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Machine : shp02002c1us02
+File    : CVSPRestoreCtrl.log
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+26408 17f4  02/03 21:29:27 26674062 = CVSPRestore has started CVSPRestore2013 -client -iDA -j 26674062 -ccid 2 -a 18606 -cn shp02002c1us02 cvshost:xiuh000002ue2v.cvmscloud.commvault.com*xiuh000002ue2v*8400 cvsport:39094:0 cvsmyplatform:4 cvsremoteplatform:4 -vm Instance001 
+26408 17f4  02/03 21:29:27 26674062 ================================================================================
+26408 17f4  02/03 21:29:27 26674062 CSharePointRestoreApp::PreInitialize(149) - Starting CVSPRestore for sharepoint pseudo-client [FairfieldResidentialLLC_SharePoint_v2]
+26408 17f4  02/03 21:29:27 26674062 CSharePointRestoreApp::InitializeAppMgr(352) - +++ 
+26408 17f4  02/03 21:29:27 26674062 CSharePointRestoreApp::InitializeAppMgr(352) - --- 0:00.000290 
+26408 17f4  02/03 21:29:27 26674062 CVSharePointIdaRestoreApp::PreInitialize(99) - Relaunching Process
+26408 17f4  02/03 21:29:27 26674062 CVSPLibNamespace::CVSPAppMgr::RelaunchProcessWithPermissions() - It is an Office 365 pseudoclient
+26408 17f4  02/03 21:29:27 26674062 CvProcess::StartProcessUnicode() - Preparing to launch process: <G:\ContentStore\Base\CVSPRestore2013.exe>. Priority: <Normal>. Value: <32> creational flag <8>.
+26408 17f4  02/03 21:29:27 26674062 CVImpersonateLoggedOnUserByRef() - caching user sid [S-1-5-21-1947849787-3065012606-2168924033-53178] for optimizing subsequent impersonate operations for this user
+26408 17f4  02/03 21:29:27 26674062 CVSPLibNamespace::CVSPAppMgr::LaunchProcessWithImpersonation() - launched process CVSPRestore2013.exe. CVSPRestore2013 -client -iDA -j 26674062 -ccid 2 -a 18606 -cn shp02002c1us02 cvshost:xiuh000002ue2v.cvmscloud.commvault.com*xiuh000002ue2v*8400 cvsport:39094:0 cvsmyplatform:4 cvsremoteplatform:4 -vm Instance001 -relaunchproc
+26408 17f4  02/03 21:29:27 26674062 CVSharePointIdaRestoreApp::~CVSharePointIdaRestoreApp(47) - +++ 
+26408 17f4  02/03 21:29:27 26674062 CVSharePointIdaRestoreApp::~CVSharePointIdaRestoreApp(47) - --- 0:00.000123 
+26408 17f4  02/03 21:29:27 26674062 CSharePointRestoreApp::~CSharePointRestoreApp(53) - +++ 
+26408 17f4  02/03 21:29:27 26674062 = CVSharePointRestore has exited
+26408 17f4  02/03 21:29:27 26674062 ================================================================
+26408 17f4  02/03 21:29:27 26674062 CSharePointRestoreApp::~CSharePointRestoreApp(53) - --- 0:00.000334 
+26408 17f4  02/03 21:29:27 26674062 CvNetworkPool::~CvNetworkPool() - Controller thread successfully stopped.
+22916 4638  02/03 21:29:28 26674062 ================================================================================
+22916 4638  02/03 21:29:28 26674062 = CVSPRestore has started CVSPRestore2013 -client -iDA -j 26674062 -ccid 2 -a 18606 -cn shp02002c1us02 cvshost:xiuh000002ue2v.cvmscloud.commvault.com*xiuh000002ue2v*8400 cvsport:39094:0 cvsmyplatform:4 cvsremoteplatform:4 -vm Instance001 -relaunchproc 
+22916 4638  02/03 21:29:28 26674062 ================================================================================
+22916 4638  02/03 21:29:28 26674062 CSharePointRestoreApp::PreInitialize(149) - Starting CVSPRestore for sharepoint pseudo-client [FairfieldResidentialLLC_SharePoint_v2]
+22916 4638  02/03 21:29:28 26674062 CSharePointRestoreApp::Initialize(209) - +++ 
+22916 4458  02/03 21:29:28 26674062 CVDTerminationHandler::_WaitForCVDTermination() - Waiting for CVD Termination
+22916 4638  02/03 21:29:28 26674062 CSharePointRestoreApp::InitializeAppMgr(352) - +++ 
+22916 4638  02/03 21:29:28 26674062 CSharePointRestoreApp::InitializeAppMgr(352) - --- 0:00.000288 
+22916 4638  02/03 21:29:28 26674062 CVSharePointIdaRestoreApp::InitializeController(127) - +++ 
+22916 4638  02/03 21:29:28 26674062 JOBRESCACHEDIR: job 26674062 creating 'X:\ContentStore\sharepointJr\CV_JobResults\2\0\26674062'
+22916 4638  02/03 21:29:28 26674062 SPIdaRstProps::ReadTaskOptions(82) - Restoring out of place. Destination - [<EVGui_SharePointItem fullPath="https://ffproperties.sharepoint.com/sites/z-INT-Construction-Restore250203" siteCollectionPath="https://ffproperties.sharepoint.com/sites/z-INT-Construction-Restore250203" Reserved_1="" Reserved_2="" objectType="4" webPath="https://ffproperties.sharepoint.com/sites/z-INT-Construction-Restore250203" contentPath="\MB\https://ffproperties.sharepoint.com/sites/z-INT-Construction-Restore250203" relativePath="/" folderPath="" />]
+22916 4638  02/03 21:29:28 26674062 SPIdaRstProps::ReadTaskOptions(104) - Restore option - [Overwrite]
+22916 4638  02/03 21:29:28 26674062 SPIdaRstProps::ReadTaskOptions(110) - Include deleted - [true]
+22916 4638  02/03 21:29:28 26674062 SPIdaRstProps::ReadTaskOptions(126) - Include versions - [true]
+22916 4638  02/03 21:29:28 26674062 CVSPLibNamespace::CVSPAppMgr::GetOffice365TenantUrl() - Office 365 tenant url [https://ffproperties-admin.sharepoint.com]
+22916 4638  02/03 21:29:28 26674062 CVSPLibNamespace::CVSPAppMgr::IsEnableUsingCertificate(2166) - Enable using certificate is set to true
+22916 4638  02/03 21:29:28 26674062 SPIdaRstProps::ReadRegistrySettings(238) - Will enforce path matching
+22916 4638  02/03 21:29:28 26674062 InitializeComUtils() - COM initialized successfully....
+22916 1     02/03 21:29:28 26674062  ManagedLogger::SetCLRThreadPoolMaxThreads - Setting CLR ThreadPool's maxWorkerThreads = [1000], maxIOThreads = [1000] PID = [22916], ProcessName = [CVSPRestore2013].
+22916 4638  02/03 21:29:28 26674062 InitializeComInterface() - COM initialized successfully....
+22916 1     02/03 21:29:28 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - Auto.Interrupt.Job.At(String): 6:05:00
+22916 1     02/03 21:29:28 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - CVSPFinalize.ThreadCount(DWord): 1
+22916 1     02/03 21:29:28 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - Check.App.Creds.Using.Alternate.Methods(DWord): 1
+22916 1     02/03 21:29:28 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - Enable.SPO.AutoChange.Interrupt.Count.For.BackupsetIds(String): 41138
+22916 1     02/03 21:29:28 26674062 CVSPRegistry PrintSubKeyValues - Registry Key - SPO.SkipProtectSharedJRState(DWord): 0
+22916 4638  02/03 21:29:28 26674062 InitializeComInterface() -  Instance created successfully :D
+22916 1     02/03 21:29:28 26674062 CVSPOffice365Client2013 Initialize - CVSPOffice365Client2013 for Graph Initialized Successfully
+22916 1     02/03 21:29:37 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app e6c8a7d9-2d71-42b1-950c-8862f59b700f
+22916 1     02/03 21:29:38 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 4383f405-a17d-45bf-9912-2f31fbc8b531
+22916 1     02/03 21:29:38 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 4d78de6b-2dc2-4f62-a8cd-c870f6b40332
+22916 1     02/03 21:29:39 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 4265c238-3bce-49d6-9b7d-7bf69535f07e
+22916 1     02/03 21:29:39 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 2a95a4ed-7b42-4cad-8d2b-cedcf4659e75
+22916 1     02/03 21:29:40 26674062 1    ParallelContextCache CheckOffice365CredModern - Office365 Login verified for app 738cc13b-d3ce-4889-8f44-35ac9083ba72
+22916 1     02/03 21:29:42 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App 4383f405-a17d-45bf-9912-2f31fbc8b531. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+22916 1     02/03 21:29:42 26674062 1    CVSPGraphHelper setAuthenticationModeFromRegistry - CVSPGraphHelper.cs - useMSAL value is True
+22916 6     02/03 21:29:43 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App 4383f405-a17d-45bf-9912-2f31fbc8b531 is missing permissions for Sites APIs
+22916 1     02/03 21:29:43 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 4383f405-a17d-45bf-9912-2f31fbc8b531 is missing minimum Graph permissions required.
+22916 1     02/03 21:29:43 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App 4d78de6b-2dc2-4f62-a8cd-c870f6b40332. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+22916 13    02/03 21:29:44 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App 4d78de6b-2dc2-4f62-a8cd-c870f6b40332 is missing permissions for Sites APIs
+22916 1     02/03 21:29:44 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 4d78de6b-2dc2-4f62-a8cd-c870f6b40332 is missing minimum Graph permissions required.
+22916 1     02/03 21:29:44 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App 4265c238-3bce-49d6-9b7d-7bf69535f07e. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+22916 6     02/03 21:29:44 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App 4265c238-3bce-49d6-9b7d-7bf69535f07e is missing permissions for Sites APIs
+22916 1     02/03 21:29:44 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 4265c238-3bce-49d6-9b7d-7bf69535f07e is missing minimum Graph permissions required.
+22916 1     02/03 21:29:44 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App e6c8a7d9-2d71-42b1-950c-8862f59b700f. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+22916 13    02/03 21:29:44 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App e6c8a7d9-2d71-42b1-950c-8862f59b700f is missing permissions for Sites APIs
+22916 1     02/03 21:29:44 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App e6c8a7d9-2d71-42b1-950c-8862f59b700f is missing minimum Graph permissions required.
+22916 1     02/03 21:29:44 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - Unable to get API permissions for App 2a95a4ed-7b42-4cad-8d2b-cedcf4659e75. Error - [Failed to get assigned permissions for Azure App. Insufficient privileges to complete the operation. ErrorCode: Authorization_RequestDenied. Please make sure the azure app has Microsoft Graph - Application - Directory.Read.All permission.]. Checking with direct Graph queries.
+22916 6     02/03 21:29:44 26674062 CVSPGraphHelper+<VerifyGraphPermissionsAsync>d__89 MoveNext - App 2a95a4ed-7b42-4cad-8d2b-cedcf4659e75 is missing permissions for Sites APIs
+22916 1     02/03 21:29:44 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 2a95a4ed-7b42-4cad-8d2b-cedcf4659e75 is missing minimum Graph permissions required.
+22916 1     02/03 21:29:44 26674062 1    CVSPOffice365Client2013 AzureAppVerifyGraphPermissions - App 738cc13b-d3ce-4889-8f44-35ac9083ba72 is not missing any required permission
+22916 4638  02/03 21:29:44 26674062 ValidateAzureAppsGraphPermissions(2230) - Graph permissions check complete. Found at least one healthy app with all required permissions.
+22916 4638  02/03 21:29:44 26674062 CVSharePointIdaRestoreApp::InitializeController(127) - --- 0:16.580346 
+22916 4638  02/03 21:29:44 26674062 CSharePointRestoreApp::Initialize(209) - --- 0:16.591981 
+22916 4638  02/03 21:29:44 26674062 CSharePointRestoreApp::Run(333) - +++ 
+22916 4638  02/03 21:29:44 26674062 SPRstController::OnAgentStarted() - Agent has started
+22916 4638  02/03 21:29:44 26674062 SPController::GetLocalComputerInfo() - Detected 64 CPUs and 262144 MB of memory
+22916 4638  02/03 21:29:45 26674062 InitializeComInterface() - COM initialized successfully....
+22916 4638  02/03 21:29:45 26674062 InitializeComInterface() -  Instance created successfully :D
+22916 1     02/03 21:29:45 26674062 1    CVSPOffice365Client2013 Initialize - CVSPOffice365Client2013 for Graph Initialized Successfully
+21092 65fc  02/05 20:21:27 26893946 ================================================================================
